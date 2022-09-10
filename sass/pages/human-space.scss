@@ -1,0 +1,142 @@
+.container00{
+    &.container08{
+        background-image: url('../../images/human-fight/01.jpg');
+    }
+    &.container09{
+        background-image: url('../../images/human-fight/02.jpg');
+    }
+    &.container10{
+        background-image: url('../../images/human-fight/03.jpg');
+    }
+    &.container11{
+        background-image: url('../../images/human-fight/04.jpg');
+    }
+    &.container12{
+        background-image: url('../../images/human-fight/05.jpg');
+    }
+}
+
+.container-title-human{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    img{
+        width: 100px;
+    }
+}
+
+.title-human{
+    font-size: 90px;
+}
+.subtitle-human{
+    font-size: 25px;
+    margin-top: -30px;
+}
+
+.contact{
+    background-color: #000;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        color: #fff;
+        text-decoration: none;
+        &:hover{
+        color: #dcdcdc;
+        }
+    }
+}
+
+.content-right{
+    margin-left: 55%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.content-left{
+    display: flex;
+    min-height: 80vh;
+    align-items: center;
+    width: auto;
+}
+
+.travel-container{
+    .title-travel{
+        font-weight: 500;
+        font-size: 50px;
+    }
+    .button-container{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 1550px){
+    .container08{
+        background-size: auto;
+    }
+}
+@media (max-width: 1200px){
+    .title-human{
+        line-height: 80px;
+    }
+    .subtitle-human{
+        margin-top: 15px;
+    }
+}
+@media (max-width: 635px){
+    .title-human{
+        font-size: 75px;
+        line-height: 80px;
+    }
+    .subtitle-human{
+        margin-top: 15px;
+    }
+}
+@media (max-width: 520px){
+    .title-human{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .subtitle-human{
+        font-size: 25px;
+    }
+}
+@media (max-width: 450px){
+    .content-right{
+        margin-left: 45%;
+    }
+    .content-right, .content-left{
+        background-color: rgba(0, 0, 0, 0.3);
+        padding: 10px 15px;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 410px){
+    .title-human{
+        font-size: 50px;
+    }
+    .subtitle-human{
+        font-size: 18px;
+    }
+}
+@media (max-width: 355px){
+    .title-human{
+        font-size: 45px;
+    }
+    .travel-container{
+        .title-travel{
+            font-size: 40px;
+        }
+    }
+}
+@media (max-width: 310px){
+    .content-right{
+        margin: auto;
+    }
+}
